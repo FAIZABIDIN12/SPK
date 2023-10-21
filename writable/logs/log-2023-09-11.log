@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-11 21:18:20 --> Division by zero
+in APPPATH\Controllers\topsis.php on line 298.
+ 1 APPPATH\Controllers\topsis.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'APPPATH\\Controllers\\topsis.php', 298, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->proses()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

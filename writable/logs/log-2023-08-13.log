@@ -1,0 +1,135 @@
+ERROR - 2023-08-13 19:54:49 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pkb`.`hasil`, CONSTRAINT `hasil_ibfk_2` FOREIGN KEY (`id_karyawan`) REFERENCES `karyawan` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ka...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(268): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->delete('2560')
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-08-13 19:54:55 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ka...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(268): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->delete('2560')
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-08-13 19:55:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pkb', 3306, '', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawa...', Array, false)
+#4 C:\xampp\htdocs\PKB\app\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+#6 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawa...', Array, false)
+#3 C:\xampp\htdocs\PKB\app\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+#5 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+#6 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-13 19:55:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawan`.*, `divisi`.`nama` as `nama_divisi`
+FROM `karyawan`
+JOIN `divisi` ON `divisi`.`id_divisi` = `karyawan`.`id_divisi`', [], false)
+ 3 APPPATH\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-08-13 19:55:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pkb', 3306, '', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawa...', Array, false)
+#4 C:\xampp\htdocs\PKB\app\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+#6 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawa...', Array, false)
+#3 C:\xampp\htdocs\PKB\app\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+#5 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+#6 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-13 19:55:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `karyawan`.*, `divisi`.`nama` as `nama_divisi`
+FROM `karyawan`
+JOIN `divisi` ON `divisi`.`id_divisi` = `karyawan`.`id_divisi`', [], false)
+ 3 APPPATH\Models\M_karyawan.php(29): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin.php(105): App\Models\M_karyawan->getKaryawanWithDivisi()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-08-13 19:55:21 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`pkb`.`hasil`, CONSTRAINT `hasil_ibfk_2` FOREIGN KEY (`id_karyawan`) REFERENCES `karyawan` (`id`) ON UPDATE CASCADE) in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ka...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(268): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->delete('2560')
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}

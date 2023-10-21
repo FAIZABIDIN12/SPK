@@ -1,0 +1,10 @@
+CRITICAL - 2023-07-31 23:03:37 --> syntax error, unexpected end of file
+in APPPATH\Views\topsis\hasil_topsis.php on line 279.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('topsis/hasil_topsis', [], true)
+ 3 APPPATH\Controllers\topsis.php(363): view('topsis/hasil_topsis', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->hasil_topsis()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,14 @@
+CRITICAL - 2023-08-01 05:16:35 --> Class 'Carbon\Carbon' not found
+in APPPATH\Controllers\topsis.php on line 384.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-08-01 05:16:57 --> Class 'Carbon\Carbon' not found
+in APPPATH\Controllers\topsis.php on line 384.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

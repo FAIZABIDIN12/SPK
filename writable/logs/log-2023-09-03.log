@@ -1,0 +1,444 @@
+CRITICAL - 2023-09-03 07:15:20 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Controllers\topsis.php on line 546.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:26:12 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 547.
+ 1 APPPATH\Controllers\topsis.php(547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 547, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:09 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:10 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:13 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:14 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:14 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:14 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:15 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:15 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:15 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:33:15 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:56:04 --> Call to a member function view() on null
+in APPPATH\Controllers\topsis.php on line 531.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:05:44 --> Invalid argument supplied for foreach()
+in APPPATH\Views\topsis\hasil_topsis.php on line 150.
+ 1 APPPATH\Views\topsis\hasil_topsis.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\topsis\\hasil_topsis.php', 150, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\topsis\\hasil_topsis.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('topsis/hasil_topsis', [], true)
+ 5 APPPATH\Controllers\topsis.php(408): view('topsis/hasil_topsis', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->hasil_topsis()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:35:12 --> Invalid file: nama_view_lulus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nama_view_lulus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nama_view_lulus', [], true)
+ 3 APPPATH\Controllers\topsis.php(529): view('nama_view_lulus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:36:34 --> Invalid file: nama_view_lulus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nama_view_lulus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nama_view_lulus', [], true)
+ 3 APPPATH\Controllers\topsis.php(529): view('nama_view_lulus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:42:22 --> Invalid file: hasil_topsis.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hasil_topsis.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('hasil_topsis', [], true)
+ 3 APPPATH\Controllers\topsis.php(529): view('hasil_topsis')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:44:19 --> Invalid argument supplied for foreach()
+in APPPATH\Views\topsis\hasil_topsis.php on line 57.
+ 1 APPPATH\Views\topsis\hasil_topsis.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\topsis\\hasil_topsis.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\topsis\\hasil_topsis.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('topsis/hasil_topsis', [], true)
+ 5 APPPATH\Controllers\topsis.php(529): view('topsis/hasil_topsis')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 08:46:25 --> Invalid file: nama_view_lulus.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('nama_view_lulus.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('nama_view_lulus', [], true)
+ 3 APPPATH\Controllers\topsis.php(529): view('nama_view_lulus')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-09-03 09:16:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'pkb', 3306, '', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(373): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->hasil_topsis()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\PKB\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\PKB\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(373): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->hasil_topsis()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-09-03 09:16:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `divisi`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\topsis.php(373): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->hasil_topsis()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:21:15 --> syntax error, unexpected '$dompdf' (T_VARIABLE)
+in APPPATH\Controllers\topsis.php on line 552.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:33:02 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 546.
+ 1 APPPATH\Controllers\topsis.php(546): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 546, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:38:18 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:40:17 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:42:19 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:43:35 --> Call to a member function library() on null
+in APPPATH\Controllers\topsis.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\topsis->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:45:21 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:48:41 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:53:03 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 09:56:37 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:07:50 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:30:24 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:38:23 --> syntax error, unexpected 'const' (T_CONST)
+in APPPATH\Controllers\topsis.php on line 528.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:38:32 --> syntax error, unexpected 'const' (T_CONST)
+in APPPATH\Controllers\topsis.php on line 528.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:39:13 --> syntax error, unexpected 'const' (T_CONST)
+in APPPATH\Controllers\topsis.php on line 528.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:39:52 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:43:31 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 10:46:20 --> Call to a member function post() on null
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPdf()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 11:00:36 --> Class 'App\Controllers\TCPDF' not found
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 11:01:13 --> Class 'App\Controllers\TCPDF' not found
+in APPPATH\Controllers\topsis.php on line 529.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 11:29:48 --> Class 'App\Controllers\Dompdf' not found
+in APPPATH\Controllers\topsis.php on line 531.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 19:48:20 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 539.
+ 1 APPPATH\Controllers\topsis.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 539, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 19:51:09 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 539.
+ 1 APPPATH\Controllers\topsis.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 539, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 19:53:20 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 539.
+ 1 APPPATH\Controllers\topsis.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 539, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 19:54:14 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 539.
+ 1 APPPATH\Controllers\topsis.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 539, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 19:54:20 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 539.
+ 1 APPPATH\Controllers\topsis.php(539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 539, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 20:00:39 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\topsis.php on line 540.
+ 1 APPPATH\Controllers\topsis.php(540): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\topsis.php', 540, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 20:18:26 --> Call to undefined method Dompdf\Dompdf::addPage()
+in APPPATH\Controllers\topsis.php on line 541.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 20:23:19 --> Call to undefined method Dompdf\Dompdf::addPage()
+in APPPATH\Controllers\topsis.php on line 540.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->downloadPDF()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 23:26:16 --> syntax error, unexpected '$html' (T_VARIABLE)
+in APPPATH\Controllers\topsis.php on line 546.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\topsis.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Topsis')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Topsis')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Topsis')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Topsis', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

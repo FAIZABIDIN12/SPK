@@ -1,0 +1,264 @@
+ERROR - 2023-07-27 01:51:59 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(427): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 01:52:17 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(427): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 01:53:01 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 01:54:15 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 01:54:56 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-27 01:57:33 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\PKB\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->like('nama', [...])
+ 2 APPPATH\Controllers\topsis.php(428): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-27 01:58:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\PKB\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->like('nama', [...])
+ 2 APPPATH\Controllers\topsis.php(428): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-27 02:03:43 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in C:\xampp\htdocs\PKB\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->like('id_divisi', [...])
+ 2 APPPATH\Controllers\topsis.php(428): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-27 02:05:07 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\PKB\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 954.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->like('tgl', null)
+ 2 APPPATH\Controllers\topsis.php(427): CodeIgniter\Model->__call('like', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-07-27 02:05:34 --> mysqli_sql_exception: Unknown column 'divisiId' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-27 02:07:15 --> Call to undefined method App\Models\M_hasil::whereRaw
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\topsis.php(428): CodeIgniter\Model->__call('whereRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-27 02:07:44 --> Call to undefined method App\Models\M_hasil::whereRaw
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\topsis.php(428): CodeIgniter\Model->__call('whereRaw', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-07-27 02:10:48 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:11:46 --> mysqli_sql_exception: Unknown column 'nama' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:12:34 --> mysqli_sql_exception: Unknown column 'divisi_id' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:13:01 --> mysqli_sql_exception: Unknown column 'divisi_id' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:13:27 --> mysqli_sql_exception: Unknown column 'divisi_id' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:14:13 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2023-07-27 02:15:41 --> mysqli_sql_exception: Unknown column 'Array' in 'where clause' in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `ha...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ha...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ha...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ha...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(401): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(984): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp\htdocs\PKB\app\Controllers\topsis.php(429): CodeIgniter\BaseModel->delete()
+#7 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-27 02:23:28 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\topsis.php on line 455.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('topsis/hasil_topsis')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('topsis/hasil_topsis')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('topsis/hasil_topsis')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-27 02:27:31 --> Call to undefined method App\Models\M_divisi::getHasilByDivisi
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\topsis.php(418): CodeIgniter\Model->__call('getHasilByDivisi', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\topsis->deleteDataByTglAndDivisi()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\topsis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

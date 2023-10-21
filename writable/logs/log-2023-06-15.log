@@ -1,0 +1,21 @@
+CRITICAL - 2023-06-15 20:15:44 --> Class 'App\Models\M_topsis' not found
+in APPPATH\Controllers\Admin.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->dashboard()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 20:58:56 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->topsis()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-06-15 20:59:42 --> Call to a member function getName() on null
+in APPPATH\Controllers\Admin.php on line 131.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->topsis()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

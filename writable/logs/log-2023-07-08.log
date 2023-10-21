@@ -1,0 +1,313 @@
+CRITICAL - 2023-07-08 06:46:03 --> Too few arguments to function App\Controllers\Admin::delete(), 0 passed in C:\xampp\htdocs\PKB\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 06:47:48 --> Too few arguments to function App\Controllers\Admin::delete(), 0 passed in C:\xampp\htdocs\PKB\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Admin.php on line 152.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:04:30 --> Call to a member function model() on null
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:06:31 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:07:31 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:07:34 --> Cannot call constructor
+in APPPATH\Controllers\Admin.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:18:54 --> App\Controllers\Admin::import(): Failed opening required 'C:\xampp\htdocs\PKB\app\third_party/PHPExcel/PHPExcel.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\Admin.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:23:56 --> App\Controllers\Admin::import(): Failed opening required 'C:\xampp\htdocs\PKB\app\third_party/PHPExcel/PHPExcel.php' (include_path='C:\xampp\php\PEAR')
+in APPPATH\Controllers\Admin.php on line 180.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:26:13 --> Call to a member function model() on null
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:27:24 --> Call to a member function model() on null
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:27:27 --> Call to a member function model() on null
+in APPPATH\Controllers\Admin.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Admin->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:40:42 --> Unable to identify a reader for this file
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 172.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('C:\\xampp\\tmp\\phpA612.tmp', null)
+ 2 APPPATH\Controllers\Admin.php(181): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\tmp\\phpA612.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->import()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-07-08 07:41:22 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\PKB\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `to...', 0)
+#1 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `to...')
+#2 C:\xampp\htdocs\PKB\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `to...')
+#3 C:\xampp\htdocs\PKB\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `to...', Array, false)
+#4 C:\xampp\htdocs\PKB\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\PKB\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\PKB\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\PKB\app\Controllers\Admin.php(201): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\PKB\system\CodeIgniter.php(927): App\Controllers\Admin->import()
+#9 C:\xampp\htdocs\PKB\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\PKB\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\PKB\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\PKB\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-08 08:01:52 --> syntax error, unexpected '$id' (T_VARIABLE), expecting ')'
+in APPPATH\Controllers\Admin.php on line 165.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Admin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\admin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\admin')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\admin')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\admin', true)
+ 6 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
